@@ -1,0 +1,20 @@
+{
+  "name": "apilocaltransmi",
+  "version": "1.0.0",
+  "description": "api local transmilenio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node server.js"
+  },
+  "author": "hugo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "fcm-node": "^1.3.0",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.4"
+  }
+}
